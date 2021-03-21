@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/andradeB/banQi/compare/v1.2.0...v1.3.0) (2021-03-21)
+
+
+### Features
+
+* **theme:** typography components added ([2f46f4d](https://github.com/andradeB/banQi/commit/2f46f4d64091b733f02b6f6c0a2a1ec24cadde9e)), closes [#2](https://github.com/andradeB/banQi/issues/2)
+
 ## [1.2.0](https://github.com/andradeB/banQi/compare/v1.1.0...v1.2.0) (2021-03-21)
 
 
