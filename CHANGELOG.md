@@ -2,13 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.2.0](https://github.com/andradeB/banQi/compare/v1.1.0...v1.2.0) (2021-03-21)
-
-
-### Features
-
-* **theme:** style-components, style-system, and theme added ([5fe8e47](https://github.com/andradeB/banQi/commit/5fe8e47901ec8c8b334fc240c33785cd214e73f0)), closes [#3](https://github.com/andradeB/banQi/issues/3)
-
 ## 1.1.0 (2021-03-21)
 
 
