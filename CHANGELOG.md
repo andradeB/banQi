@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/andradeB/banQi/compare/v1.3.0...v1.4.0) (2021-03-21)
+
+
+### Features
+
+* icons added ([990bb5e](https://github.com/andradeB/banQi/commit/990bb5e3a2399850b13735e741016485b3b7d97f))
+
 ## [1.3.0](https://github.com/andradeB/banQi/compare/v1.2.0...v1.3.0) (2021-03-21)
 
 

@@ -1,8 +1,9 @@
 import React from 'react';
 import {View} from 'react-native';
-import {Title} from 'components/Typography';
+import {} from 'react-native-vector-icons';
 import {ThemeProvider} from 'styled-components/native';
 import {AppTheme} from './src/theme';
+import {Icon} from 'components/Icon';
 
 const AppProvider: React.FC = ({children}) => {
   return <ThemeProvider theme={AppTheme}>{children}</ThemeProvider>;
@@ -17,7 +18,7 @@ const App: () => React.ReactNode = () => {
           alignItems: 'center',
           justifyContent: 'center',
         }}>
-        <Title>asd</Title>
+        <Icon name="alert" />
       </View>
     </AppProvider>
   );
