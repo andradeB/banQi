@@ -1,8 +1,8 @@
 import React from 'react';
 import {ThemeProvider} from 'styled-components/native';
 import {AppTheme} from './src/theme';
-import {BillsAmount} from 'components/BillsAmount';
 import {Container} from 'components/Container';
+import {ListItem} from './src/components/ListItem';
 
 const AppProvider: React.FC = ({children}) => {
   return <ThemeProvider theme={AppTheme}>{children}</ThemeProvider>;
@@ -12,7 +12,11 @@ const App: () => React.ReactNode = () => {
   return (
     <AppProvider>
       <Container mt={90}></Container>
-      <BillsAmount amount={'R$ 34,87'} />
+      <ListItem
+        title={'Depósito na Casas Bahia'}
+        subtitle={'Recebido em 15/03/2019'}
+        value={'+ R$ 10,00'}
+      />
     </AppProvider>
   );
 };
