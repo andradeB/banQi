@@ -42,7 +42,7 @@ const BaseText = styled.Text<BaseTextProps>`
 `;
 
 export const Title: React.FC<ColorProps> = (props) => (
-  <BaseText {...props} type="title" weight="normal" />
+  <BaseText {...props} type="title" weight="bold" />
 );
 
 export const Body: React.FC<ColorProps> = (props) => (
