@@ -15,6 +15,7 @@
       "screens": ["./screens"],
       "components": ["./components"],
       "navigation": ["./navigation"],
+      "hooks": ["./hooks"],
       "store": ["./store"],
       "models": ["./models"],
     }

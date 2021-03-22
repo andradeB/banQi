@@ -150,7 +150,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "eye-closed"
+          "eye_closed"
         ]
       },
       "attrs": [
@@ -161,7 +161,7 @@
       "properties": {
         "order": 41,
         "id": 7,
-        "name": "eye-closed",
+        "name": "eye_closed",
         "prevSize": 32,
         "code": 59652
       },
