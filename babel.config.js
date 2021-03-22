@@ -10,6 +10,7 @@ module.exports = {
           screens: './src/screens',
           navigation: './src/navigation',
           components: './src/components',
+          hooks: './src/hooks',
           models: './src/models',
           store: './src/store',
         },

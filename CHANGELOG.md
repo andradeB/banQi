@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/andradeB/banQi/compare/v1.5.0...v1.6.0) (2021-03-22)
+
+
+### Features
+
+* billsAmount component added ([afc14d7](https://github.com/andradeB/banQi/commit/afc14d74bbe96aa33723ac70952202297449684e))
+* list Item added ([7973880](https://github.com/andradeB/banQi/commit/797388066e6614d1423fb2745428f5773d36375e))
+
 ## [1.5.0](https://github.com/andradeB/banQi/compare/v1.4.0...v1.5.0) (2021-03-22)
 
 
