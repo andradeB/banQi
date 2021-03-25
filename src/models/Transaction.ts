@@ -11,7 +11,7 @@ export class Transaction extends BaseObject {
     super(json.id);
 
     this.date = json?.date;
-    this.description = json?.date;
-    this.amount = json?.date;
+    this.description = json?.description;
+    this.amount = json?.amount;
   }
 }

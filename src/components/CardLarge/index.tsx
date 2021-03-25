@@ -4,17 +4,18 @@ import {Container} from '../Container';
 import {Icon, IconName} from '../Icon';
 import {BodyBold} from '../Typography';
 import {TouchableOpacity, TouchableOpacityProps} from 'react-native';
+import {ThemeColors} from 'theme';
 
 type CardProps = TouchableOpacityProps & {
   icon: IconName;
-  iconColor?: string;
+  iconColor?: ThemeColors;
   title?: string;
 };
 
 export const CardLarge: React.FC<CardProps> = ({
   icon,
   title,
-  iconColor,
+  iconColor = 'black',
   ...props
 }) => {
   return (

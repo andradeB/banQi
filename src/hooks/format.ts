@@ -1,5 +1,10 @@
-import {parseISO, format} from 'date-fns';
+import format from 'date-fns/format';
+import parseISO from 'date-fns/parseISO';
 
 export const date = (stringDate: string) => {
-  return format(parseISO('2019-02-11T14:00:00'), 'MM/dd/yyyy');
+  return format(parseISO(stringDate), 'MM/dd/yyyy');
+};
+
+export const currency = (value: number) => {
+  return value;
 };
