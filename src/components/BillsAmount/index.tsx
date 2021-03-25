@@ -28,7 +28,11 @@ export const BillsAmount: React.FC<BilsAmountProps> = ({amount}) => {
         </Title>
         <TouchableOpacity onPress={() => setVisible(!visible)}>
           <Container pl={1}>
-            <Icon name={'eye_closed'} color={'black'} size={20} />
+            <Icon
+              name={visible ? 'eye_closed' : 'eye'}
+              color={'black'}
+              size={20}
+            />
           </Container>
         </TouchableOpacity>
       </Container>

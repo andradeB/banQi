@@ -14,10 +14,13 @@
     "paths": {
       "screens": ["./screens"],
       "components": ["./components"],
-      "navigation": ["./navigation"],
+      "navigations": ["./navigations"],
       "hooks": ["./hooks"],
+      "theme": ["./theme"],
       "store": ["./store"],
       "models": ["./models"],
+      "service": ["./service"],
+      "config": ["./config"],
     }
 },
   "exclude": [

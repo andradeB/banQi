@@ -1,15 +1,16 @@
 import {Theme} from 'styled-system';
 
+export type ThemeColors =
+  | 'black'
+  | 'grey'
+  | 'dark_grey'
+  | 'white'
+  | 'green'
+  | 'blue'
+  | 'pink';
+
 export interface IAppTheme extends Theme {
-  colors: {
-    black: string;
-    grey: string;
-    dark_grey: string;
-    white: string;
-    green: string;
-    blue: string;
-    pink: string;
-  };
+  colors: Record<ThemeColors, string>;
   radii: number[];
   space: number[];
   fontSizes: number[];

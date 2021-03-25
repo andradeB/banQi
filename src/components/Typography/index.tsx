@@ -1,16 +1,24 @@
 import styled from 'styled-components/native';
 import React from 'react';
-import {variant, color, ColorProps} from 'styled-system';
+import {
+  variant,
+  color,
+  ColorProps,
+  letterSpacing,
+  LetterSpacingProps,
+} from 'styled-system';
 
 type TextType = 'title' | 'body' | 'caption' | 'tab';
 
-type BaseTextProps = ColorProps & {
-  type: TextType;
-  weight: 'bold' | 'normal';
-};
+type BaseTextProps = ColorProps &
+  LetterSpacingProps & {
+    type: TextType;
+    weight: 'bold' | 'normal';
+  };
 
 const BaseText = styled.Text<BaseTextProps>`
-  ${color};
+  ${letterSpacing};
+  color: ${({theme}) => theme.colors.black} ${color};
   ${variant({
     prop: 'type',
     variants: {
@@ -41,26 +49,30 @@ const BaseText = styled.Text<BaseTextProps>`
   })}
 `;
 
-export const Title: React.FC<ColorProps> = (props) => (
+export const Title: React.FC<ColorProps & LetterSpacingProps> = (props) => (
   <BaseText {...props} type="title" weight="bold" />
 );
 
-export const Body: React.FC<ColorProps> = (props) => (
+export const TitleLight: React.FC<ColorProps & LetterSpacingProps> = (
+  props,
+) => <BaseText {...props} type="title" weight="normal" />;
+
+export const Body: React.FC<ColorProps & LetterSpacingProps> = (props) => (
   <BaseText {...props} type="body" weight="normal" />
 );
 
-export const BodyBold: React.FC<ColorProps> = (props) => (
+export const BodyBold: React.FC<ColorProps & LetterSpacingProps> = (props) => (
   <BaseText {...props} type="body" weight="bold" />
 );
 
-export const Caption: React.FC<ColorProps> = (props) => (
+export const Caption: React.FC<ColorProps & LetterSpacingProps> = (props) => (
   <BaseText {...props} type="caption" weight="normal" />
 );
 
-export const CaptionBold: React.FC<ColorProps> = (props) => (
-  <BaseText {...props} type="caption" weight="bold" />
-);
+export const CaptionBold: React.FC<ColorProps & LetterSpacingProps> = (
+  props,
+) => <BaseText {...props} type="caption" weight="bold" />;
 
-export const TabText: React.FC<ColorProps> = (props) => (
+export const TabText: React.FC<ColorProps & LetterSpacingProps> = (props) => (
   <BaseText {...props} type="tab" weight="normal" />
 );
