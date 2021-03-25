@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/andradeB/banQi/compare/v1.6.0...v1.7.0) (2021-03-25)
+
+
+### Features
+
+* home, list, header and bottomsheet added ([96e64a7](https://github.com/andradeB/banQi/commit/96e64a769e9659c42ef8945db390520113d17116))
+
 ## [1.6.0](https://github.com/andradeB/banQi/compare/v1.5.0...v1.6.0) (2021-03-22)
 
 
